@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "../components/Navbar";
 import Badge from "../components/Badge";
+import BadgeForm from "../components/BadgeForm";
 
 import header from "../images/badge-header.svg";
 import "./styles/BadgeNew.css";
@@ -24,6 +25,9 @@ class BadgePage extends React.Component {
                 avatar="https://www.gravatar.com/avatar/ae0b876156856ac9e18841a51b8fb62b"
                 jobtitle="Student Duro"
               />
+            </div>
+            <div className="col-6">
+              <BadgeForm />
             </div>
           </div>
         </div>
