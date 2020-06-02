@@ -12,5 +12,8 @@
     },
   "[javascriptreact]": {
     "editor.formatOnSave": true
-  }
+},
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+}
 }
