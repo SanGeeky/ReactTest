@@ -1,13 +1,13 @@
 import React from "react";
 
+import header from "../images/badge-header.svg";
+import "./styles/BadgeNew.css";
+
 import Navbar from "../components/Navbar";
 import Badge from "../components/Badge";
 import BadgeForm from "../components/BadgeForm";
 
-import header from "../images/badge-header.svg";
-import "./styles/BadgeNew.css";
-
-class BadgePage extends React.Component {
+class BadgeNew extends React.Component {
   state = {
     form: {
       firstName: "",
@@ -65,4 +65,4 @@ class BadgePage extends React.Component {
   }
 }
 
-export default BadgePage;
+export default BadgeNew;
