@@ -3,11 +3,10 @@ import ReactDOM from "react-dom"; // ApppendChild
 import "bootstrap/dist/css/bootstrap.css";
 import "./global.css";
 
-import BadgeNew from "./pages/BadgeNew";
-import BadgesList from "./pages/BadgesList";
+import App from "./components/App";
 
 const container = document.getElementById("app");
 
 // ReactDOM.render(que,donde)
-ReactDOM.render(<BadgeNew />, container);
-ReactDOM.render(<BadgesList />, container);
+//ReactDOM.render(<BadgeNew />, container);
+ReactDOM.render(<App />, container);
