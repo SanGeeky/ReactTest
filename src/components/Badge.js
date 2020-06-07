@@ -1,5 +1,7 @@
 import React from "react";
 
+import Gravatar from "./Gravatar";
+
 import "./styles/Badge.css";
 import confLogo from "../images/badge-header.svg";
 
