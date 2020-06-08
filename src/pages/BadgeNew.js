@@ -57,6 +57,7 @@ class BadgeNew extends React.Component {
       this.setState({ loading: false, error: error });
     }
   };
+  com;
   render() {
     if (this.state.loading) {
       return <PageLoading />;
